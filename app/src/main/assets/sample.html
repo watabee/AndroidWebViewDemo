@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Android WebView Demo</title>
+    <script src="https://appassets.androidplatform.net/assets/bundle.js" onload="main.postMessage('onLoadScript')"></script>
+</head>
+<body>
+    <button id="camera_button" onclick="main.postMessage('onCameraButtonClicked')">カメラ</button>
+    <br/>
+    <br/>
+    <img id="image_preview" style="background: url('https://appassets.androidplatform.net/res/drawable/outline_image_black_24.png') no-repeat center center" width="300" height="400" />
+</body>
+</html>
